@@ -93,13 +93,11 @@
   
   
   /*divs*/
-  .div1{
-    background-color: beige;
-    width: 33.33%;
-    float: right;
-    height: 80vh;
-  }
-  
+ .div1{
+  width: 33.33%;
+  float: right;
+  height: 80vh;
+}
   .div2{
     
     width: 30.33%;
@@ -223,3 +221,13 @@
     height: 50px;
     border: none;
   }
+
+
+
+img{
+  height: 75vh;
+  width: 95%;
+  margin-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
