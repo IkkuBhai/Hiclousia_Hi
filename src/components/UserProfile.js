@@ -8,7 +8,8 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Avatar from '@material-ui/core/Avatar';
-import avatar from "../images/avatar.jpg"
+import avatar from "../images/avatar.jpg";
+import pic from "../images/pic.png";
 
 const useStyles = makeStyles((theme) => ({
 
@@ -109,7 +110,7 @@ function UserProfile() {
             <div class="page">
 
                 <div class="div1">
-
+                    <img src={pic} />
                 </div>
 
                 <div class="div2">
